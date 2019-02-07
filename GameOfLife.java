@@ -511,14 +511,7 @@ public class GameOfLife extends JFrame {
 			}
 		}
 	}
-    
-
-
-
-
-
-
-
+   
     public static void main(String[] args) {
 		GameOfLife gameOfLife = new GameOfLife(); // Create the main game object.
 		
