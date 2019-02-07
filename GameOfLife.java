@@ -11,7 +11,7 @@ import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 
 /**
- * This is a coding assignment as part of the application for the BBC Software Engineering Graduate Scheme.
+ * This is an application which simulates the population of live and dead cells in a grid based on rules.
  * 
  * This is based on Conway's Game of Life. 
  * 
@@ -24,7 +24,9 @@ import java.awt.event.MouseMotionListener;
  * 				There is an infinite amount of iterations.
  * 				Automation speed should be set at a moderate-fast pace (since a step through option is included).
  * 				The starting state should be randomly generated.
- * 
+ *				If a live cell has less than 2 neighbours or more than 3 neighbours it will die.
+ * 				If a live cell has 2 or 3 neighbours it will stay alive.
+ *				If a dead cell has 3 live neighbours it will come alive.
  * 
  * 
  * Instructions: 
