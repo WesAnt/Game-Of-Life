@@ -15,7 +15,7 @@ import java.awt.event.MouseMotionListener;
  * 
  *  This is based on Conway's Game of Life. 
  * 
- * Assumptions: Each cell should be selectable.
+ * Assumptions: 		Each cell should be selectable.
  * 				The grid will grow as the live cells move or populate outside of the initial area.
  * 				Each cell size will decrease in scale as viewing area gets bigger (smallest is 4 x 4 pixels).
  * 				The whole of the world should be viewable by means of navigational buttons.
