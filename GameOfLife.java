@@ -518,7 +518,7 @@ public class GameOfLife extends JFrame {
 
 
     public static void main(String[] args) {
-		GameOfLife gameOfLife = new GameOfLife(); // Create the main Graphical User Interface object
+		GameOfLife gameOfLife = new GameOfLife(); // Create the main game object.
 		
 		while(true) {
 			gameOfLife.repaint();	
